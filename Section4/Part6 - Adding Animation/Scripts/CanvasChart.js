@@ -217,8 +217,6 @@ var CanvasChart = function() {
 
 };
 
-//requestAnimationFrame polyfill
-//http://paulirish.com/2011/requestanimationframe-for-smart-animating/
 (function () {
     var lastTime = 0;
     var vendors = ['ms', 'moz', 'webkit', 'o'];
