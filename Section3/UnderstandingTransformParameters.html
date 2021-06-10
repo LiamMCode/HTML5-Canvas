@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head>
+		<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/themes/ui-lightness/jquery-ui.css" rel="Stylesheet" type="text/css" />
+		<link href="CSS/transformParameters.css" rel="Stylesheet" type="text/css" />
+		<script src="http://code.jquery.com/jquery.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+		<script src="https://raw.github.com/btburnett3/jquery.ui.spinner/master/ui.spinner.min.js"></script>
+	    <script src="./scripts/transformParameters.js"></script>
+	</head>
+	<body>
+        <table style="width:400px;margin: 10px;">
+           <tr>
+               <td><div>scale-x</div></td>
+               <td>
+                   <input type="text" id="scale-x" value="1" />
+               </td>
+               <td><div>skew-y</div></td>
+               <td>
+                   <input type="text" id="skew-y" value="0" />
+               </td>
+               <td><div>translate-x</div></td>
+               <td>
+                   <input type="text" id="translate-x" value="0" />
+               </td>
+               <td>
+                   <div id="reset" style="text-decoration:underline;cursor:pointer;">Reset</div>
+               </td>
+           </tr>
+           <tr>
+               <td><div>skew-x</div></td>
+               <td>
+                   <input type="text" id="skew-x" value="0" />
+               </td>
+               <td><div>scale-y</div></td>
+               <td>
+                   <input type="text" id="scale-y" value="1" />
+               </td>
+               <td><div>translate-y</div></td>
+               <td>
+                   <input type="text" id="translate-y" value="0" />
+               </td>
+               <td>&nbsp;</td>
+           </tr>
+           <tr>
+               <td>&nbsp;</td>
+               <td><div class="fixedNum">0</div></td>
+               <td>&nbsp;</td>
+               <td><div class="fixedNum">0</div></td>
+               <td>&nbsp;</td>
+               <td><div class="fixedNum">1</div></td>
+               <td>&nbsp;</td>
+           </tr>
+        </table>
+        <canvas id="myCanvas" width="400" height="300" style="margin-left:10px;"></canvas>
+    </body>
+</html>
